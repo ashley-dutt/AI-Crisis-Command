@@ -1,0 +1,21 @@
+{
+  "name": "ai-crisis-command",
+  "version": "1.0.0",
+  "description": "AI Crisis Command - Real-time Cooperative Multiplayer Crisis Management Game",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "multiplayer",
+    "cooperative",
+    "game",
+    "socketio",
+    "crisis-management"
+  ],
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
+
